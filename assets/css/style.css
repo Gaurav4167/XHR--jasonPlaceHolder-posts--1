@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+#form-heading{
+    background-color:  rgb(184, 151, 216)   ;
+    color: black;
+}
+/* h3{
+    text-align: center;
+    color: black;
+} */
+
+#card-header{
+    background-color: rgb(184, 151, 216);
+}
+#card-header h3{
+    height: 70px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+#card-body{
+    background-color: rgb(211, 204, 218);
+}
+#card-body{
+    background-color: rgb(211, 204, 218);
+}
+.card-content{
+    height: 200px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+#card-footer{
+    background-color: rgb(188, 155, 221);
+}
+#card{
+    height: 400px;
+}
+#addBtn{
+    background-color: rgb(184, 151, 216);
+    color: white;
+}
+#updateBtn{
+    background-color: rgb(184, 151, 216);
+    color: white;
+}
+#cancelBtn{
+    background-color: rgb(229, 57, 34);
+    color: white;
+}
+
+.spinner{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
