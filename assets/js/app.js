@@ -8,6 +8,8 @@ let addBtn = document.getElementById("addBtn")
 let updateBtn = document.getElementById("updateBtn")
 let cancelBtn = document.getElementById("cancelBtn")
 let row = document.getElementById("row")
+let addHeading = document.getElementById("add-heading")
+let updateHeading = document.getElementById("update-heading")
 let spinner = document.getElementById("spinner")
 
 let cardContent = document.getElementById("cardContent")
@@ -121,6 +123,8 @@ function addNewCard(ele) {
 }
 
 function editCard(ele) {
+    addHeading.classList.add("d-none")
+    updateHeading.classList.remove("d-none")
     let EDIT_ID = ele.closest(".select").id;
 
     // cl(EDIT_ID)
@@ -197,6 +201,8 @@ function updatepost(ele) {
 
             addBtn.classList.remove("d-none")
             updateBtn.classList.add("d-none")
+            addHeading.classList.remove("d-none")
+            updateHeading.classList.add("d-none")
             successSnackBar("Updated", "Post update successfully!")
             form.reset();
 
